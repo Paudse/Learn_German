@@ -1,7 +1,9 @@
 # folder = "./My_Wortschatz/"
 # page = "My_Wortschatz_001"
-folder = "./fault_record/"
-page = "fault_My_Wortschatz_001"
+# folder = "./fault_record/"
+# page = "fault_My_Wortschatz_001"
+folder = "./My_Wortschatz/"
+page = "C1_50"
 ###
 # folder = "./Lernwortschatz_Deutsch/"
 # page = "page_11"
