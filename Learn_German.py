@@ -1,7 +1,9 @@
-
-input_page = input('Load Lernwortschatz Deutsch page number: ')
-page = "page_" + input_page
-folder = "./Lernwortschatz_Deutsch/"
+# folder = "./My_Wortschatz/"
+# page = "My_Wortschatz_001"
+folder = "./fault_record/"
+page = "fault_My_Wortschatz_001"
+###
+# folder = "./Lernwortschatz_Deutsch/"
 # page = "page_11"
 ###
 # folder = "./fault_record/"
@@ -25,9 +27,9 @@ def test(file_name):
 	for i in range (0,len(data)):
 		# print(i%3)
 		# print(data[i])
-		if i%3 == 0:
+		if i%2 == 0:
 			de.append(data[i].replace('\n', ''))
-		if i%3 == 1:
+		if i%2 == 1:
 			ch.append(data[i].replace('\n', ''))
 
 	# for j in range (0,len(de)):
@@ -66,16 +68,16 @@ def test(file_name):
 			if not os.path.exists('./fault_record'):
 				os.makedirs('./fault_record')
 			with open('./fault_record/fault_' + page + ".txt", "a", encoding='utf-8') as file:
-				wrong_message = de[k] + '\n' + ch[k] + '\n' + '--' + '\n'
+				wrong_message = de[k] + '\n' + ch[k] + '\n'
 				file.write(wrong_message)
 
 		print('--------------------------------------')
 		if k == len(de):
 			not_finished = 0
 			if score == len(de):
-				print(colored('Your score: '+ str(score)+'   GREAT!!!', 'green'))
+				print(colored('Your score: '+ str(score)+ '/'+ str(len(de)) + '   GREAT!!!', 'green'))
 			else:
-				print(colored('Your score: '+ str(score), 'red'))
+				print(colored('Your score: '+ str(score)+ '/'+ str(len(de)), 'red'))
 			print(colored("test finished", 'cyan'))
 
 if __name__ == '__main__':
