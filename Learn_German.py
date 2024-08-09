@@ -1,6 +1,6 @@
-file_name = "./Lernwortschatz_Deutsch/page_11.txt"
-
-
+folder = "./Lernwortschatz_Deutsch/"
+page = "page_11"
+file_name = folder + page + ".txt"
 
 ###
 import random
@@ -27,6 +27,7 @@ def test(file_name):
 
 	not_finished = 1
 	k = 0
+	score = 0
 
 	while not_finished:
 		print('<', k+1 , '/', len(de) , '>')
@@ -49,13 +50,25 @@ def test(file_name):
 
 		if input_ans == str(correct_ans+1):
 			print(colored('Correct!', 'green'))
+			score = score + 1
 			k = k + 1
 		else:
 			print(colored('Wrong. Try again.', 'red'))
+			score = score - 1
+			if not os.path.exists('./fault_record'):
+				os.makedirs('./fault_record')
+			with open('./fault_record/fault_' + page + ".txt", "a", encoding='utf-8') as file:
+				wrong_message = de[k] + ' : ' + ch[k] + '\n'
+				file.write(wrong_message)
+
 		print('--------------------------------------')
 		if k == len(de):
 			not_finished = 0
-			print(colored("test finished", 'blue'))
+			if score == len(de):
+				print(colored('Your score: '+ str(score)+'   GREAT!!!', 'green'))
+			else:
+				print(colored('Your score: '+ str(score), 'red'))
+			print(colored("test finished", 'cyan'))
 
 if __name__ == '__main__':
 	test(file_name)
