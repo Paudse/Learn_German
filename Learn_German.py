@@ -1,5 +1,12 @@
+
+input_page = input('Load Lernwortschatz Deutsch page number: ')
+page = "page_" + input_page
 folder = "./Lernwortschatz_Deutsch/"
-page = "page_11"
+# page = "page_11"
+###
+# folder = "./fault_record/"
+# page = "fault_page_11"
+###
 file_name = folder + page + ".txt"
 
 ###
@@ -7,6 +14,7 @@ import random
 from termcolor import colored
 import os
 os.system('color')
+os.system('mode con: cols=50 lines=20')
 
 def test(file_name):
 	with open(file_name, "r", encoding='utf-8') as f: 
@@ -39,7 +47,7 @@ def test(file_name):
 			# print(r)
 			ans[m] = ch[random.choice(r)]
 
-		print(colored(de[k], 'yellow'))
+		print(colored(de[k], 'yellow', attrs=['bold']))
 		correct_ans = random.randint(0, 1)
 		ans[correct_ans] = ch[k]
 
@@ -58,7 +66,7 @@ def test(file_name):
 			if not os.path.exists('./fault_record'):
 				os.makedirs('./fault_record')
 			with open('./fault_record/fault_' + page + ".txt", "a", encoding='utf-8') as file:
-				wrong_message = de[k] + ' : ' + ch[k] + '\n'
+				wrong_message = de[k] + '\n' + ch[k] + '\n' + '--' + '\n'
 				file.write(wrong_message)
 
 		print('--------------------------------------')
