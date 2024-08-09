@@ -1,8 +1,12 @@
+file_name = "./Lernwortschatz_Deutsch/page_11.txt"
+
+
+
+###
 import random
 from termcolor import colored
 import os
 os.system('color')
-
 
 def test(file_name):
 	with open(file_name, "r", encoding='utf-8') as f: 
@@ -54,7 +58,6 @@ def test(file_name):
 			print(colored("test finished", 'blue'))
 
 if __name__ == '__main__':
-	file_name = "DW.txt"
 	test(file_name)
 
 
