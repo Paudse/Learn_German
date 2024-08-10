@@ -35,6 +35,10 @@ def test(foler_file_name):
 	# for j in range (0,len(de)):
 		# print(de[j], ' : ',ch[j])
 
+	c = list(zip(de, ch))
+	random.shuffle(c)
+	de, ch = zip(*c)
+
 	not_finished = 1
 	k = 0
 	score = 0
