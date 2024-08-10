@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "ChatGPT_B1_常用動詞_02"
+file = "ChatGPT_C1_常用動詞_01"
 
 ###
 foler_file_name = folder + file + ".txt"
