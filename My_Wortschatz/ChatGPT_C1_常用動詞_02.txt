@@ -58,10 +58,12 @@ gestalten
 設計，塑造	Der Designer gestaltete das neue Logo. (設計師設計了新的標誌。)
 erzeugen	
 產生，創造	Die Maschine erzeugt Strom. (這台機器產生電力。)
-verarbeiten	處理	Das Unternehmen verarbeitet große Datenmengen. (公司處理大量數據。)
+verarbeiten	
+處理	Das Unternehmen verarbeitet große Datenmengen. (公司處理大量數據。)
 erkennen	
 認識，識別	Er erkannte sofort den Fehler. (他立即識別出了錯誤。)
-veröffentlichen	發表，公布	Der Artikel wird nächste Woche veröffentlicht. (文章將於下週發表。)
+veröffentlichen	
+發表，公布	Der Artikel wird nächste Woche veröffentlicht. (文章將於下週發表。)
 aufbauen	
 建立，組建	Die Firma baut eine neue Abteilung auf. (公司建立了一個新的部門。)
 abschließen	

@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "ChatGPT_C1_常用動詞_01"
+file = "ChatGPT_B2_常用單字_01"
 
 ###
 foler_file_name = folder + file + ".txt"
@@ -85,10 +85,10 @@ def test(foler_file_name):
 		if k == len(de):
 			not_finished = 0
 			score_100 = round(((len(de)-wrong)/len(de))*100,0)
-			if score == len(de):
+			if score_100 >= 80:
 				# print(colored('Your score: '+ str(score)+ '/'+ str(len(de)) + '   GREAT!!!', 'green'))
 				print(colored('Your score: '+ str(score_100) + '   YOU PASS!!!', 'green'))
-				print(colored('Number of questions failed: -'+ str(wrong)+'/'+ str(len(q)), 'green'))
+				print(colored('Number of questions failed: -'+ str(wrong)+'/'+ str(len(de)), 'green'))
 			else:
 				# print(colored('Your score: '+ str(score)+ '/'+ str(len(de)), 'red'))
 				print(colored('Your score: '+ str(score_100) + '   NOT PASS...', 'red'))
