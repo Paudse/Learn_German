@@ -1,6 +1,7 @@
 
 folder = "./My_Wortschatz/"
 file = "My_Wortschatz_005"
+de2ch = 1
 
 ###
 foler_file_name = folder + file + ".txt"
@@ -27,10 +28,16 @@ def test(foler_file_name):
 	for i in range (0,len(data)):
 		# print(i%3)
 		# print(data[i])
-		if i%2 == 0:
-			de.append(data[i].replace('\n', ''))
-		if i%2 == 1:
-			ch.append(data[i].replace('\n', ''))
+		if de2ch == 1:
+			if i%2 == 0:
+				de.append(data[i].replace('\n', ''))
+			if i%2 == 1:
+				ch.append(data[i].replace('\n', ''))
+		else:
+			if i%2 == 1:
+				de.append(data[i].replace('\n', ''))
+			if i%2 == 0:
+				ch.append(data[i].replace('\n', ''))
 
 	# for j in range (0,len(de)):
 		# print(de[j], ' : ',ch[j])
