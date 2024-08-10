@@ -1,15 +1,7 @@
-# folder = "./My_Wortschatz/"
-# page = "My_Wortschatz_001"
-# folder = "./fault_record/"
-# page = "fault_My_Wortschatz_001"
+
 folder = "./My_Wortschatz/"
-page = "C1_50"
-###
-# folder = "./Lernwortschatz_Deutsch/"
-# page = "page_11"
-###
-# folder = "./fault_record/"
-# page = "fault_page_11"
+page = "日常生活口語相關詞彙短語"
+
 ###
 file_name = folder + page + ".txt"
 
@@ -18,7 +10,7 @@ import random
 from termcolor import colored
 import os
 os.system('color')
-os.system('mode con: cols=50 lines=20')
+os.system('mode con: cols=100 lines=20')
 
 def test(file_name):
 	with open(file_name, "r", encoding='utf-8') as f: 
