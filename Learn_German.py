@@ -1,9 +1,9 @@
 
 folder = "./My_Wortschatz/"
-page = "日常生活口語相關詞彙短語"
+file = "日常生活口語相關詞彙短語"
 
 ###
-file_name = folder + page + ".txt"
+foler_file_name = folder + file + ".txt"
 
 ###
 import random
@@ -12,8 +12,8 @@ import os
 os.system('color')
 os.system('mode con: cols=100 lines=20')
 
-def test(file_name):
-	with open(file_name, "r", encoding='utf-8') as f: 
+def test(foler_file_name):
+	with open(foler_file_name, "r", encoding='utf-8') as f: 
 		data = f.readlines()
 
 	de = []
@@ -75,7 +75,7 @@ def test(file_name):
 			print(colored("test finished", 'cyan'))
 
 if __name__ == '__main__':
-	test(file_name)
+	test(foler_file_name)
 
 
 
