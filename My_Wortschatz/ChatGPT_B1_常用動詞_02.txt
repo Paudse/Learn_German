@@ -26,7 +26,8 @@ beeinflussen
 影響	Das Wetter kann unser Wohlbefinden beeinflussen. (天氣會影響我們的健康。)
 eignen	
 適合	Dieses Buch eignet sich gut für Anfänger. (這本書非常適合初學者。)
-gestalten	設計，塑造	Er gestaltete die neue Website. (他設計了新網站。)
+gestalten	
+設計，塑造	Er gestaltete die neue Website. (他設計了新網站。)
 kennenlernen	
 認識，了解	Wir haben uns auf der Konferenz kennengelernt. (我們在會議上認識了彼此。)
 überprüfen	
@@ -41,11 +42,14 @@ erfahren
 得知，經歷	Sie erfuhr die Neuigkeiten aus den Nachrichten. (她從新聞中得知了消息。)
 gewinnen	
 贏得，獲得	Er gewann den ersten Preis im Wettbewerb. (他在比賽中贏得了第一名。)
-fordern	要求	Die Mitarbeiter fordern bessere Arbeitsbedingungen. (員工要求更好的工作條件。)
+fordern	
+要求	Die Mitarbeiter fordern bessere Arbeitsbedingungen. (員工要求更好的工作條件。)
 schätzen	
 估計，珍惜	Ich schätze deine Unterstützung sehr. (我非常珍惜你的支持。)
-übertragen	轉移，傳輸	Die Daten wurden erfolgreich auf den neuen Server übertragen. (數據已成功轉移到新伺服器。)
-beschreiben	描述	Er beschrieb die Situation detailliert. (他詳細描述了情況。)
+übertragen	
+轉移，傳輸	Die Daten wurden erfolgreich auf den neuen Server übertragen. (數據已成功轉移到新伺服器。)
+beschreiben	
+描述	Er beschrieb die Situation detailliert. (他詳細描述了情況。)
 erinnern	
 記得，提醒	Er erinnerte sich an den Geburtstag seiner Freundin. (他記得他女朋友的生日。)
 einhalten	

@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "ChatGPT_B1_常用動詞_01"
+file = "ChatGPT_B1_常用動詞_02"
 
 ###
 foler_file_name = folder + file + ".txt"
@@ -8,11 +8,14 @@ foler_file_name = folder + file + ".txt"
 ###
 import random
 from termcolor import colored
+import time
+from datetime import datetime
 import os
 os.system('color')
 os.system('mode con: cols=100 lines=20')
 
 def test(foler_file_name):
+	time_start = time.time()
 	with open(foler_file_name, "r", encoding='utf-8') as f: 
 		data = f.readlines()
 
@@ -73,6 +76,16 @@ def test(foler_file_name):
 			else:
 				print(colored('Your score: '+ str(score)+ '/'+ str(len(de)), 'red'))
 			print(colored("test finished", 'cyan'))
+			time_end = time.time()
+			print('time cost: ', round(time_end-time_start, 3), 's')
+			if not os.path.exists('./score_record'):
+				os.makedirs('./score_record')
+			with open('./score_record/score_' + file + ".txt", "a", encoding='utf-8') as f:
+				now = datetime.now()
+				dt_string = now.strftime("%Y/%m/%d %H:%M:%S")
+				score_message = file+'   '+dt_string+'   '+str(score)+'/'+str(len(de))+'   '+str(round(time_end-time_start, 3))+'\n'
+				f.write(score_message)
+
 
 if __name__ == '__main__':
 	test(foler_file_name)
