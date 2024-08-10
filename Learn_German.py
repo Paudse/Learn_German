@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "日常生活口語相關詞彙短語"
+file = "ChatGPT_B1_常用動詞_01"
 
 ###
 foler_file_name = folder + file + ".txt"
@@ -61,9 +61,9 @@ def test(foler_file_name):
 			score = score - 1
 			if not os.path.exists('./fault_record'):
 				os.makedirs('./fault_record')
-			with open('./fault_record/fault_' + page + ".txt", "a", encoding='utf-8') as file:
+			with open('./fault_record/fault_' + file + ".txt", "a", encoding='utf-8') as f:
 				wrong_message = de[k] + '\n' + ch[k] + '\n'
-				file.write(wrong_message)
+				f.write(wrong_message)
 
 		print('--------------------------------------')
 		if k == len(de):
