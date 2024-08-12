@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "My_Wortschatz_2024_08_11"
+file = "My_Wortschatz_2024_08_12"
 de2ch = 1
 
 ###
