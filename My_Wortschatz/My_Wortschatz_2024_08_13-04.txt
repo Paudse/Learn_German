@@ -18,3 +18,9 @@ knappen
 scarce	紧缺的
 Mieten	
 rents	租金
+Waldbrände	
+forest fires	森林火灾
+gespart	
+saved	节省
+Steilküsten	
+cliffs	悬崖
