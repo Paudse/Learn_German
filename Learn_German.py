@@ -1,6 +1,6 @@
 
 folder = "./My_Wortschatz/"
-file = "My_Wortschatz_2024_08_13-01"
+file = "My_Wortschatz_2024_08_13-04"
 de2ch = 1
 
 ###
@@ -114,10 +114,9 @@ def test(foler_file_name):
 
 
 if __name__ == '__main__':
-	testing = 1
-	while testing:
+	while True:
 		test(foler_file_name)
-		testing = input('Enter 1 for testing again: ')
+		testing = input('Press any key to test again.')
 
 
 
