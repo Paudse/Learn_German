@@ -1,0 +1,126 @@
+anbringen	
+to bring up, introduce	提出，介紹
+ausdrucken	
+to print	打印
+darstellen	
+to represent	表現，展現
+einrichten	
+to set up	設置
+erziehen	
+to educate, raise	教育，養育
+folgen	
+to follow	跟隨
+herausfinden	
+to find out	查明
+hinkommen	
+to get to, reach	到達
+kündigen	
+to resign, announce	辭職，宣布
+leiten	
+to lead, manage	管理
+merken	
+to notice, realize	注意到，意識到
+mitteilen	
+to inform, notify	通知
+nachschlagen	
+to look up	查詢
+nachweisen	
+to prove	證明
+prahlen	
+to boast	吹噓
+realisieren	
+to realize	實現
+reduzieren	
+to reduce	減少
+reflektieren	
+to reflect	反思
+reparieren	
+to repair	修理
+riechen	
+to smell	聞
+rufen	
+to call, shout	叫，喊
+schützen	
+to protect	保護
+stören	
+to disturb	擾亂
+teilhaben	
+to participate	參加
+übertragen	
+to transfer	轉移，傳達
+umziehen	
+to move (residence)	搬家
+verhandeln	
+to negotiate	談判
+verhaften	
+to arrest	逮捕
+verlegen	
+to lay, misplace	放置，丟失
+verzeihen	
+to forgive	原諒
+widerspiegeln	
+to reflect (image)	反映
+zugeben	
+to admit	承認
+ankommen	
+to arrive	到達
+aufstehen	
+to get up	起床
+beitragen	
+to contribute	貢獻
+einladen	
+to invite	邀請
+einnehmen	
+to take (medicine)	服用（藥物）
+erlauben	
+to allow	允許
+erziehen	
+to raise, educate	養育，教育
+festhalten	
+to hold on	堅持，保持
+fließen	
+to flow	流動
+genügen	
+to be sufficient	足夠
+gratulieren	
+to congratulate	祝賀
+liefern	
+to deliver	交付
+mitmachen	
+to participate	參加
+missverstehen	
+to misunderstand	誤解
+nachdenken	
+to think	思考
+nachfragen	
+to inquire	詢問
+prüfen	
+to check, test	檢查
+retten	
+to rescue, save	救援，拯救
+schmecken	
+to taste	嘗試
+schritt halten	
+to keep pace	跟上步伐
+teilen	
+to share	分享
+übernachten	
+to stay overnight	過夜
+umkehren	
+to turn back	轉身，返回
+verbessern	
+to improve	改善
+verschieben	
+to postpone	推遲
+versprechen	
+to promise	承諾
+vorhaben	
+to intend	打算
+vorziehen	
+to prefer	偏好
+wiederholen	
+to repeat	重複
+wünschen	
+to wish	希望，祝願
+zubereiten	
+to prepare (food)	準備（食物）

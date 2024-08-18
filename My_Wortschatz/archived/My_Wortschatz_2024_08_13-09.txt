@@ -1,0 +1,138 @@
+die Abfahrt	
+departure	出發
+die Ecke	
+corner	角落
+anfangen	
+to begin	開始
+abfahren	
+to depart, leave	出發
+anbieten	
+to offer	提供
+ankommen	
+to arrive	到達
+anrufen	
+to call (on the phone)	打電話
+aufhören	
+to stop	停止
+aufpassen	
+to pay attention	注意
+auspacken	
+to unpack	打開，拆包
+behalten	
+to keep	保持
+beschreiben	
+to describe	描述
+bestehen	
+to consist, pass (an exam)	存在，通過
+einladen	
+to invite	邀請
+entscheiden	
+to decide	決定
+erklären	
+to explain	解釋
+erziehen	
+to educate, raise	教育，養育
+führen	
+to lead	領導
+gebären	
+to give birth	生孩子
+gefallen	
+to please	使喜歡
+gelingen	
+to succeed	成功
+gehören	
+to belong	屬於
+hoffen	
+to hope	希望
+kündigen	
+to resign, give notice	辭職，通知
+leihen	
+to lend	借出
+nachdenken	
+to think	思考
+organisieren	
+to organize	組織
+passieren	
+to happen	發生
+rufen	
+to call, shout	叫，喊
+schießen	
+to shoot	開槍
+sperren	
+to block, close	阻塞，關閉
+unterstützen	
+to support	支持
+verabreden	
+to arrange, agree	約定
+verlassen	
+to leave	離開
+verschieben	
+to postpone	推遲
+vorbereiten	
+to prepare	準備
+widersprechen	
+to contradict	反駁
+abholen	
+to pick up	接（人）
+anziehen	
+to put on (clothes)	穿上（衣服）
+ausstellen	
+to exhibit, issue	展出，發放
+beachten	
+to pay attention to	注意
+begründen	
+to justify, explain	理由，解釋
+beruhigen	
+to calm down	使平靜
+bitten	
+to ask, request	請求
+einziehen	
+to move in	搬入
+entlassen	
+to dismiss, release	解除，放行
+erfahren	
+to experience, learn	體驗，了解
+erfinden	
+to invent	發明
+erlauben	
+to allow	允許
+fliegen	
+to fly	飛行
+fordern	
+to demand, require	要求
+gefallen	
+to please	使喜歡
+gelingen	
+to succeed	成功
+nutzen	
+to use	使用
+pflegen	
+to care for	照顧
+prüfen	
+to check, test	檢查
+reagieren	
+to react	反應
+reduzieren	
+to reduce	減少
+reichen	
+to reach, pass	達到，傳遞
+sichern	
+to secure, protect	保護
+spüren	
+to feel	感覺
+steuern	
+to steer, control	操控
+trennen	
+to separate	分開
+umgehen	
+to handle, deal with	處理
+unterhalten	
+to entertain, converse	娛樂，交談
+verlängern	
+to extend	延長
+vergrößern	
+to enlarge	擴大
+versichern	
+to insure, assure	保證
+vorschlagen	
+to suggest	建議
