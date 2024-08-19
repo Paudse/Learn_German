@@ -146,3 +146,5 @@ Hoffnung
 Hope	希望
 Fortschritt	
 Progress	进展
+Betrug
+詐欺罪
